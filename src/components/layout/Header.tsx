@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { navLinks } from '../../constants/data';
 import Logo from '../../assets/Logo.png';
-import { span } from 'framer-motion/client';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
