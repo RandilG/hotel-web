@@ -43,7 +43,7 @@ const ContactPreview: React.FC = () => {
               <div>
                 <h3 className="text-xl font-serif mb-2">Phone</h3>
                 <p className="text-gray-300">
-                  +94 123 456 789
+                  +94 70 760 2500
                 </p>
               </div>
             </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SectionTitle from '../ui/SectionTitle';
 import Button from '../ui/Button';
+import pool from '../../assets/pool/nestled-in-the-heart.jpg'
 
 const AboutSection: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const AboutSection: React.FC = () => {
           >
             <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-xl">
               <img
-                src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"
+                src={pool}
                 alt="Boulders Edge Ulpatha"
                 className="w-full h-full object-cover"
               />
@@ -41,14 +42,14 @@ const AboutSection: React.FC = () => {
 
             <div className="space-y-6 text-gray-600">
               <p>
-                Boulders Edge Ulpatha offers a unique blend of comfort, luxury, and nature's tranquility. 
-                Our hotel is designed to provide an immersive experience of Sri Lanka's natural beauty 
+                Boulders Edge Ulpatha offers a unique blend of comfort, luxury, and nature's tranquility.
+                Our hotel is designed to provide an immersive experience of Sri Lanka's natural beauty
                 while ensuring all modern comforts are at your fingertips.
               </p>
               <p>
-                Whether you're seeking a peaceful retreat, a family vacation, or a venue for your special 
-                events, our dedicated team is committed to making your stay memorable. With spacious rooms, 
-                breathtaking views, and exceptional service, we invite you to escape the ordinary and 
+                Whether you're seeking a peaceful retreat, a family vacation, or a venue for your special
+                events, our dedicated team is committed to making your stay memorable. With spacious rooms,
+                breathtaking views, and exceptional service, we invite you to escape the ordinary and
                 embrace the extraordinary at Boulders Edge.
               </p>
 
